@@ -1,0 +1,9 @@
+root = true
+
+[*.jade]
+indent_style = space
+indent_size = 2
+
+[*.styl]
+indent_style = space
+indent_size = 2
