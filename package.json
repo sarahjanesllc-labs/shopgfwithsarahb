@@ -1,0 +1,24 @@
+{
+  "name": "shopgfwithsarahb",
+  "version": "0.0.1",
+  "description": "Online ordering",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/sarahjanesllc-labs/shopgfwithsarahb.git"
+  },
+  "keywords": [
+    "glutenfree"
+  ],
+  "author": "Sarah Janes, LLC.",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/sarahjanesllc-labs/shopgfwithsarahb/issues"
+  },
+  "dependencies": {
+    "hapi": "~6.2.0"
+  }
+}
