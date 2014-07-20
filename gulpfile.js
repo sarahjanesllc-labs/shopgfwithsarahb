@@ -18,6 +18,9 @@ var vendorCSS = [
 
 var vendorScripts = [
     "bower_components/jquery/dist/jquery.min.js",
+    "bower_components/underscore/underscore.js",
+    "bower_components/backbone/backbone.js",
+    "bower_components/handlebars/handlebars.min.js",
     "bower_components/semantic/build/packaged/javascript/semantic.min.js",
 ];
 
@@ -33,8 +36,9 @@ gulp.task('concatJS', function() {
         .pipe(concat('vendor.min.js'))
         .pipe(gulp.dest('static/js/'));
     gulp.src('static/js/app.js')
+    .pipe(concat('app.min.js'))
     .pipe(uglify())
-    .pipe(gulp.dest('static/js/app.min.js'))
+    .pipe(gulp.dest('static/js/'));
 });
 
 gulp.task('develop', function() {
